@@ -1,7 +1,5 @@
-#include <iostream>
-#include <string>
+#include "PA_3.h"
 
-using namespace std;
 
 void printHelp()
 {
