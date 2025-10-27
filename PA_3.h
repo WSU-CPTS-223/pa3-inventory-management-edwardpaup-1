@@ -3,7 +3,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
-#include "MurmurHash2.h"
+#include <unordered_map>
 #include "LinkedList.h"
 using namespace std;
 

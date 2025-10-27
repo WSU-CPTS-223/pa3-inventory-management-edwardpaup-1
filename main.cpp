@@ -42,6 +42,12 @@ void bootStrap()
     cout << "\n Welcome to Amazon Inventory Query System" << endl;
     cout << " enter :quit to exit. or :help to list supported commands." << endl;
     cout << "\n> ";
+    unordered_map<string, string> map_test;
+    map_test.insert({"Testing", "1"});
+    map_test.insert({"Testing_2", "2"});
+    std::cout << map_test["Testing"];
+
+
     // TODO: Do all your bootstrap operations here
     // example: reading from CSV and initializing the data structures
     // Don't dump all code into this single function
